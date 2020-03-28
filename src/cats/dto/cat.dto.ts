@@ -1,11 +1,11 @@
-export let CatDto  =
-{
-  name: String,
-  age: Number,
-  breed: String,
-}
+export interface CatDto  
 // {
-//     name: string;
-//     age: number;
-//     breed: string;
-//   }
+//   name: String,
+//   age: Number,
+//   breed: String,
+// }
+{
+    name: string;
+    age: number;
+    breed: string;
+  }

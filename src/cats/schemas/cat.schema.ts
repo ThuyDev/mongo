@@ -1,7 +1,6 @@
 import * as mongoose from 'mongoose';
-import { CatDto } from "../dto/cat.dto";
 
-let Cat = {
+const Cat = {
   name: String,
   age: Number,
   breed: String,
